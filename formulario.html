@@ -85,6 +85,43 @@
             </optgroup>
         </select>
       </div>
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="mês">Mês</label>
+        <input type="month" name="mês" id="mês" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="semana">Semana</label>
+        <input type="week" name="semana" id="semana" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" id="hora" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="navegadores">Navegadores</label>
+        <input type="text" list="navegadores">
+        <datalist id="navegadores">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safary">
+        </datalist>
+      </div>
+
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required autofocus readonly disabled>
+      </div>
+      
+
       <div>
         <button type="submit" class="btn btn-primary">Cadastrar</button>
       </div>
